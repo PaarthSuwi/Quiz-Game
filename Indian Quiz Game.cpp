@@ -95,7 +95,7 @@ else if (choice=='S')
         switch(r1)
         {
             case 1:
-            printf("\n\n\n who is the father of our nation");
+            printf("\n\n\nQ1. who is the father of our nation");
             printf("\n\nA. B.R.Ambedkar\t\tB. Mahatma Gandhi\n\nC.Jawahar Lal Nehru\t\tD.Rajiv Gandhi");
             if(toupper(getch())=='B')
             {
@@ -110,8 +110,8 @@ else if (choice=='S')
                 break;
             }
             case 2:
-            printf("\n\n\n which is the most sensitive organ in our body?");
-            printf("\n\nA. Heart \t\t B. Lung \n\n C.Skin \n\nD. Liver");
+            printf("\n\n\nQ2. which is the most sensitive organ in our body?");
+            printf("\n\nA. Heart \t\t B. Lung \n\n C.Skin \t\tD. Liver");
             if (toupper(getch())=='C')
             {
                 printf("\n\nCorrect answer"); count++;
@@ -121,16 +121,16 @@ else if (choice=='S')
             }
             else
             {
-                printf("Wrong, the correct answer is C. skin");
+                printf("/n/n Wrong, the correct answer is C. skin");
                 getch();
                 break;
             }
             case 3:
-            printf("\n\n\nWho is the father and creator of computer?");
+            printf("\n\n\nQ3. Who is the father and creator of computer?");
             printf("\n\nA. Al Khwarizimi\t\tB. Tim Berners Lee\n\nC. Alan tuting\t\tD. Charles babbage");
             if(toupper(getch())=='D')
             {
-                printf("Correct answer");count++;
+                printf("\n\nCorrect answer");count++;
                 getch();
                 break;
             }
@@ -142,111 +142,111 @@ else if (choice=='S')
                
             }
             case 4:
-            printf("\n\n\n which is the longest river in the world ");
+            printf("\n\n\nQ4. which is the longest river in the world ");
             printf("\n\nA. River nile\t\tB. Amazon river\n\n C.Ynagtze river\t\tD.Yellow riiver");
             if(toupper(getch())=='A')
             {
-                printf("correct answer");count++;
+                printf("\n\ncorrect answer");count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong , the correct the correct answer is A. River nile");
+                printf("\n\nWrong , the correct the correct answer is A. River nile");
                 getch();
                 break;
             }
             case 5:
-            printf("\n\n which is the smallest state of India ?");
+            printf("\n\nQ5. which is the smallest state of India ?");
             printf("\n\nA. Goa \t\tB. Sikkim\n\n C.lakshwadeep\t\tD. Daman and Diu");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A.Goa");
+                printf("\n\nwrong, the correct answer is A.Goa");
                 getch();
                 break;
             }
             case 6:
-            printf("\n\n which river is called ganga of south in India ?");
+            printf("\n\nQ6. which river is called ganga of south in India ?");
             printf("\n\nA. Kaveri \t\tB. Godavari\n\n C.Krishna\t\tD. Yamuna");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B.Godaveri");
+                printf("\n\nWrong, the correct answer is B.Godaveri");
                 getch();
                 break;
            
             }
             case 7:
-            printf("\n\n In which national park is Asiatic lion found ?");
+            printf("\n\nQ7. In which national park is Asiatic lion found ?");
             printf("\n\nA. Gir \t\tB. Jim Corbett\n\n C.Sanjiv Gandhi\t\tD. Bandipur");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A.Gir");
+                printf("\n\nWrong, the correct answer is A.Gir");
                 getch();
                 break;
            
             }
             case 8:
-            printf("\n\n Which of these is NOT the city of lakes ?");
+            printf("\n\nQ8. Which of these is not the city of lakes ?");
             printf("\n\nA. UDAIPUR \t\tB. BHOPAL\n\n C.ALLAHABAD\t\tD. SRINAGAR");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C.ALLAHABAD");
+                printf("\n\nWrong, the correct answer is C.ALLAHABAD");
                 getch();
                 break;
            
             }
             case 9:
-            printf("\n\n which is NOT THE SEVEN SISTER OF NORTH EAST ?");
+            printf("\n\nQ9. which is not the seven sisters of north-east ?");
             printf("\n\nA. ASSAM \t\tB. SIKKIM\n\n C.MEGHALAYA\t\tD. MANIPUR");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B.SIKKIM");
+                printf("\n\nWrong, the correct answer is B.SIKKIM");
                 getch();
                 break;
            
             }
             case 10:
-            printf("\n\n ROOPKUND LAKE OF UTTARAKHAND IS FAMOUSLY TITLED AS _ FOR IT'S PECULIARITY");
+            printf("\n\nQ10. Roopkund lake of uttarakhand is famously titled as _____ for its peculiarity");
             printf("\n\nA. INFERNO LAKE \t\tB.ANGEL'S LAKE\n\n C.TWILIGHT LAKE\t\tD. SKELETON LAKE");
             if(toupper(getch())=='D')
             {
-                printf("Correct answer"); count++;
+                printf("\n\nCorrect answer"); count++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is D.SKELETON LAKE");
+                printf("\n\nWrong, the correct answer is D.SKELETON LAKE");
                 getch();
                 break;
             }
@@ -280,252 +280,252 @@ goto mainhome;
 switch(r)
 {
             case 1:  
-            printf("\n\n Which state is also known as the “Fruit Bowl” of India?");
+            printf("\n\nQ1. Which state is also known as the 'Fruit Bowl' of India?");
             printf("\n\nA.JAMMU & KASHMIR \t\tB.HIMACHAL PRADESH\n\n C.ASSAM\t\tD. MEGHALAYA");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B. HIMACHAL PRADESH");
+                printf("\n\nWrong, the correct answer is B. HIMACHAL PRADESH");
                 getch();
                 break;
            
             }
 
             case 2:  
-            printf("\n\n who is popularly known as the Iron Man of India");
+            printf("\n\nQ2. who is popularly known as the Iron Man of India");
             printf("\n\nA.LAL BAHUDAR SHASTRI \t\tB.SARDAR VALLABH BHAI PATEL \n\n C.MAHATMA GANDHI\t\tD. DR. B.R AMBEDKAR");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B. SARDAR VALLABH BHAI PATEL");
+                printf("\n\n Wrong, the correct answer is B. SARDAR VALLABH BHAI PATEL");
                 getch();
                 break;
            
             }
             case 3:  
-            printf("\n\n which place in india is also known as the Land of Rising Sun");
+            printf("\n\nQ3. which place in india is also known as the Land of Rising Sun");
             printf("\n\nA.SIKKIM\t\tB.KARNATKA\n\n C.GUJRAT\t\tD. ARUNACHAL PRADESH");
             if(toupper(getch())=='D')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is D. ARUNACHAL PRADESH");
+                printf("\n\nWrong, the correct answer is D. ARUNACHAL PRADESH");
                 getch();
                 break;
            
             }
             case 4:  
-            printf("\n\n In which of the following state the language is khasi?");
+            printf("\n\nQ4. In which of the following state the language is khasi?");
             printf("\n\nA. MIZORAM \t\tB. NAGALAND\n\n C. MEGHALAYA\t\tD. TRIPURA");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C. MEGHALAYA");
+                printf("\n\nWrong, the correct answer is C. MEGHALAYA");
                 getch();
                 break;
            
             }
             case 5:  
-            printf("\n\n Which is the largest coffee-producing state of India");
+            printf("\n\nQ5. Which is the largest coffee-producing state of India");
             printf("\n\nA.KARNATKA \t\tB. KERELA\n\n C. TAMIL NADU\t\tD. ARUNACHAL PRADESH");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A. ARUNACHAL PRADESH");
+                printf("\n\nWrong, the correct answer is A. ARUNACHAL PRADESH");
                 getch();
                 break;
            
             }
             case 6:  
-            printf("\n\n what is the staple drink of Goa?");
+            printf("\n\nQ6. what is the staple drink of Goa?");
             printf("\n\nA. TODDY \t\tB. THANDAI\n\n C.FENI\t\tD. SATTU SHARBAT");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C. FENI");
+                printf("\n\nWrong, the correct answer is C. FENI");
                 getch();
                 break;
            
             }
             case 7:  
-            printf("\n\n At which of the following places was the first ever European township constructed in India");
+            printf("\n\nQ7. At which of the following places was the first ever European township constructed in India");
             printf("\n\nA. KOCHI \t\tB. PONDICHERRY\n\n C.KANYAKUMARI\t\tD. SURAT");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A. KOCHI");
+                printf("\n\nWrong, the correct answer is A. KOCHI");
                 getch();
                 break;
            
             }
              case 8:  
-            printf("\n\n who were the last Europeans to come to India for trading?");
+            printf("\n\nQ8. who were the last Europeans to come to India for trading?");
             printf("\n\nA. BRITISH \t\tB. FRENCH \n\n C. PROTUGESE\t\tD. DUTCH");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B. FRENCH");
+                printf("\n\nWrong, the correct answer is B. FRENCH");
                 getch();
                 break;
            
             }
             case 9:  
-            printf("\n\nWhich of these countries doesn't share border with India: ");
+            printf("\n\nQ9. Which of these countries doesn't share border with India: ");
             printf("\n\nA. MYANMAR \t\tB.BHUTAN\n\n C.LAOS\t\tD. BANGLADESH");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C.");
+                printf("\n\nWrong, the correct answer is C.");
                 getch();
                 break;
 
             }
             case 10:  
-            printf("\n\nWho was the last ruler of the gupta empire?");
+            printf("\n\nQ10. Who was the last ruler of the gupta empire?");
             printf("\n\nA. VISHNUGUPTA\t\tB. SKANDAGUPTA\n\n C. SAMUDRAGUPTA\t\tD.KUMARAGUPTA II");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A.");
+                printf("\n\nWrong, the correct answer is A.");
                 getch();
                 break;
             }
             case 11:  
-            printf("\n\nWho among the following of Gupta dynasty adopted the title Kaviraja?");
+            printf("\n\nQ11. Who among the following of Gupta dynasty adopted the title Kaviraja?");
             printf("\n\nA. CHANDRAGUPTA\t\tB. BUDDHAGUPTA\n\n C. SAMUDRAGUPTA\t\tD.KUMARAGUPTA I");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C.");
+                printf("\n\nWrong, the correct answer is C.");
                 getch();
                 break;
             }
             case 12:  
-            printf("\n\n Who did shivaji sign the Treaty of Purandhar in 1665");
+            printf("\n\nQ12. Who did shivaji sign the Treaty of Purandhar in 1665");
             printf("\n\nA. JASWANT SINGH\t\tB. JAI SINGH\n\n C. AURANGZEB\t\tD. AADIL KHAN");
             if(toupper(getch())=='B')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is B.");
+                printf("\n\nWrong, the correct answer is B.");
                 getch();
                 break;
             }
             case 13:  
-            printf("\n\nWhich among the following empire was known as “Mulk-e-Khadim”?");
+            printf("\n\nQ13. Which among the following empire was known as â€œMulk-e-Khadimâ€?");
             printf("\n\nA. MARATHA\t\tB.BIJAPUR\n\n C.MADURAI\t\tD.MYSORE");
             if(toupper(getch())=='A')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is A.");
+                printf("\n\nWrong, the correct answer is A.");
                 getch();
                 break;
             }
             case 14:  
-            printf("\n\nWhich of these countries doesn't share border with India: ");
+            printf("\n\nQ14. Which of these countries doesn't share border with India: ");
             printf("\n\nA. MYANMAR \t\tB.BHUTAN\n\n C.LAOS\t\tD. BANGLADESH");
             if(toupper(getch())=='C')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is C.");
+                printf("\n\nWrong, the correct answer is C.");
                 getch();
                 break;
             }
             case 15:  
-            printf("\n\n national heritage animal");
+            printf("\n\nQ15. national heritage animal");
             printf("\n\nA. ASIATIC LION\t\tB.FLAMINGO\n\n C. SUNDERBAN TIGER\t\tD. ELEPHANT");
             if(toupper(getch())=='D')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is D.");
+                printf("\n\nWrong, the correct answer is D.");
                 getch();
                 break;
             }
             case 16:  
-            printf("\n\nWhich Viceroy passed the Vernacular Press Act and the Arms Act of 1878?");
+            printf("\n\nQ16. Which Viceroy passed the Vernacular Press Act and the Arms Act of 1878?");
             printf("\n\nA. LORD HARDINGE\t\tB. LORD MAYTON\n\n C. LORD DALHOUSIE\t\tD.LORD LYTTON");
             if(toupper(getch())=='D')
             {
-                printf("Correct answer"); countr++;
+                printf("\n\nCorrect answer"); countr++;
                 getch();
                 break;
             }
             else
             {
-                printf("Wrong, the correct answer is D.");
+                printf("\n\nWrong, the correct answer is D.");
                 getch();
                 break;
             }
@@ -535,13 +535,13 @@ switch(r)
 
  score:
      system("cls");
-  score=(float)countr*100000;
-  if(score>0.00 && score<1000000)
+  score=(float)countr*10;
+  if(score>0.00 && score<10000)
   {
     printf("\n\n\t\t**************** CONGRATULATION *****************");
       printf("\n\t You won $%.2f",score);goto go;}
 
-  else if(score==1000000.00)
+  else if(score==10000.00)
   {
      printf("\n\n\n \t\t**************** CONGRATULATION ****************");
      printf("\n\t\t\t\t YOUR GK ABOUT INDIA IS OVER 9000!!!!");
